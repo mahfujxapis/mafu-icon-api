@@ -85,7 +85,7 @@ def get_item_icon():
 
     icon_name = item["icon"]
 
-    image_url = f"https://freefiremobile-a.akamaihd.net/common/Local/PK/FF_UI_Icon/{icon_name}.png"
+    image_url = f"https://ff-item.netlify.app/{icon_name}.png"
 
     try:
         response = requests.get(image_url)
